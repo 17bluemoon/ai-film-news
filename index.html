@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>AI影视日报</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="header-content">
+        <h1 class="app-title">
+          <span class="logo-icon">🎬</span>
+          AI影视日报
+        </h1>
+        <p class="app-subtitle" id="lastUpdate">加载中...</p>
+      </div>
+      <button class="refresh-btn" id="refreshBtn" onclick="refreshNews()">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M23 4v6h-6M1 20v-6h6"/>
+          <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+        </svg>
+      </button>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab-btn active" data-tab="today" onclick="switchTab('today')">
+        <span class="tab-icon">📰</span>
+        <span>今日新闻</span>
+        <span class="tab-badge" id="todayCount">0</span>
+      </button>
+      <button class="tab-btn" data-tab="favorites" onclick="switchTab('favorites')">
+        <span class="tab-icon">⭐</span>
+        <span>我的收藏</span>
+        <span class="tab-badge" id="favCount">0</span>
+      </button>
+    </nav>
+
+    <main class="content">
+      <div class="news-list" id="newsList">
+        <div class="loading">
+          <div class="loading-spinner"></div>
+          <p>正在加载新闻...</p>
+        </div>
+      </div>
+
+      <div class="empty-state" id="emptyState" style="display: none;">
+        <div class="empty-icon">📭</div>
+        <p class="empty-text" id="emptyText">暂无新闻</p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>每天 9:00 自动更新 · 收藏内容永久保留</p>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

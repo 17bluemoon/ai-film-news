@@ -1,0 +1,65 @@
+{
+  "lastUpdated": "2025-07-06T09:00:00.000Z",
+  "news": [
+    {
+      "id": "sora2-update-20250724",
+      "title": "预定最强视频生成AI模型，OpenAI Sora 2 现踪迹",
+      "summary": "报道称 OpenAI 为增强与谷歌 Veo 3 的竞争，正酝酿推出 Sora 2 模型，有望成为最强视频生成 AI 模型。消息源于7月21日在 X 平台发布推文，在挖掘 OpenAI 代码中发现了 Sora 2 的相关线索。",
+      "url": "https://finance.sina.com.cn/stock/t/2025-07-24/doc-infhprxe4350075.shtml",
+      "source": "新浪科技",
+      "category": "模型更新",
+      "publishedAt": "2025-07-24T08:00:00.000Z",
+      "likes": 156
+    },
+    {
+      "id": "kling-funding-20250702",
+      "title": "可灵AI落地近30亿美元融资，创全球视频大模型公司融资规模新纪录",
+      "summary": "7月2日消息，快手旗下视频生成大模型可灵AI落地近30亿美元融资，投后估值有望达到180亿美元，创下全球视频大模型公司最大额融资纪录，标志着其独立商业化发展进程正式开启。",
+      "url": "http://m.toutiao.com/group/7658066711362404900/",
+      "source": "今日头条",
+      "category": "行业动态",
+      "publishedAt": "2025-07-02T09:00:00.000Z",
+      "likes": 203
+    },
+    {
+      "id": "ai-video-tools-review-20250715",
+      "title": "AI视频生成工具最新评测：Sora、即梦、可灵谁更强？",
+      "summary": "2025年，AI视频生成技术迎来爆发期。从OpenAI的Sora到字节跳动的即梦AI，再到快手的可灵AI，一场围绕「一句话生成视频」的竞赛正在全球范围内激烈展开。本文对主流工具进行了全面评测对比。",
+      "url": "http://m.toutiao.com/group/7643639471862334003/",
+      "source": "今日头条",
+      "category": "行业动态",
+      "publishedAt": "2025-07-15T10:00:00.000Z",
+      "likes": 178
+    },
+    {
+      "id": "sora2-prompt-generator-20250720",
+      "title": "Sora2 Prompt 生成器上线：免费在线AI视频提示词工具",
+      "summary": "Sora2 Prompt 生成器正式发布，用户可以使用该工具将创意转化为专业的AI视频提示词，轻松生成高质量视频描述。该工具支持AI增强创建，内置多种场景模板，大幅提升提示词质量。",
+      "url": "https://sorav2.pro/zh/sora2-prompt",
+      "source": "Sora 2 Pro",
+      "category": "提示词",
+      "publishedAt": "2025-07-20T12:00:00.000Z",
+      "likes": 89
+    },
+    {
+      "id": "video-prompt-tips-20250718",
+      "title": "AI生成视频提示词技巧，让你的视频画面更可控！",
+      "summary": "现在市面上用AI制作视频的工具层出不穷，从原先大家一直在抱怨产品模型不好，到现在模型的能力越来越能满足我们的预期，甚至超过预期。本文详细介绍了AI视频生成提示词的进阶技巧和实战方法。",
+      "url": "http://m.toutiao.com/group/7447106210521694760/",
+      "source": "今日头条",
+      "category": "提示词",
+      "publishedAt": "2025-07-18T14:00:00.000Z",
+      "likes": 124
+    },
+    {
+      "id": "ai-manhua-20250722",
+      "title": "抽卡不灵了 AI漫剧靠什么活下去？",
+      "summary": "2025年被称为「AI漫剧元年」，Sora、可灵、即梦等大模型的出现，让无数人以为找到了通往财富自由的捷径：找个网文版权，丢进机器，坐等收钱。但热潮退去后，行业开始思考真正的生存之道。",
+      "url": "http://m.toutiao.com/group/7646200767858098729/",
+      "source": "今日头条",
+      "category": "行业动态",
+      "publishedAt": "2025-07-22T16:00:00.000Z",
+      "likes": 67
+    }
+  ]
+}
